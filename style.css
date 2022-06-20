@@ -2,7 +2,7 @@ html{
 	height: 100%;
 }
 body{
-	background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?dpr=1&auto=format&fit=crop&w=1080&h=608&q=80&cs=tinysrgb&crop=);
+	background-image: url(./img/shutterstock_1435374326.jpg);
 	background-size:cover;
 	background-position: center;
 	color:white;
@@ -37,4 +37,58 @@ hr{
 }
 .btn-default{
 	font-family: 'Space Mono', monospace;
+}
+.cirlediv {
+	margin: auto;
+	max-width: 700px;
+	width: 50%;
+  }
+  
+  .circular {
+	/* display items as block elements, inline positioning */
+	display: inline-block;
+	/* set the height of the image */
+	height: 200px;
+	/* hide the link text */
+	text-indent: -9999px;
+	/* set the width of the image */
+	width: 200px;
+	
+	/* use a radius to make the image into a circular shape */
+	border-radius: 150px;
+	  -webkit-border-radius: 150px;
+	  -moz-border-radius: 150px;
+  
+	/* Add shadow to the box */
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+  
+  /* simple hover effect */
+  a.circular { 
+	opacity: 1; 
+	/* add fade transition effect to opacity change */
+	transition: opacity 0.3s ease-in-out;
+	-webkit-transition: opacity 0.3s ease-in-out; /* Safari */
+  }
+  
+
+  
+  .btn-ds {
+	background: url(./img/dsS.jpeg) no-repeat;
+  }
+  
+  .btn-jm {
+	background: url(./img/jmS.jpeg) no-repeat;
+  }  
+  .btn-dv {
+	background: url(./img/dvS.jpeg) no-repeat;
+  }
+  .btn-ktt {
+	background: url(./img/kttS.jpeg) no-repeat;
+  }
+  .btn-kv {
+	background: url(./img/kvs.jpeg) no-repeat;
+	background-position: calc();
 }
