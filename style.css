@@ -1,183 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+html{
+	height: 100%;
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?dpr=1&auto=format&fit=crop&w=1080&h=608&q=80&cs=tinysrgb&crop=);
+	background-size:cover;
+	background-position: center;
+	color:white;
+}
+h1{
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Space Mono', monospace;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.1);
+	text-shadow: 0px 18px 23px rgba(0,0,0,0.1);
+}
+h3{
+font-size:17px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.1);
+	text-shadow: 0px 18px 23px rgba(0,0,0,0.1);
 
-body::before{
-    display:block;
-    content: '' ;
-    height: 60px;
 }
+#content{
+	text-align:left;
+	padding-top: 15%;
 
-.titlu-text1 {
-    font-family: 'Comfortaa', bold;
 }
-.titlu-text2 {
-    font-family: 'Akaya Telivigala', cursive;
+hr{
+/* a horizontal rule can really help organize and 'clean up' landing pages... */
+	visibility:hidden;
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-.titlu-text3 {
-    font-family: 'Vast Shadow', cursive;
-}
-.titlu-text4 {
-    font-family: 'Emilys Candy', cursive;
-}
-.scris-text1 {
-    font-family: 'Inknut Antiqua', serif;
-}
-.scris-text2 {
-    font-family: 'Inknut Antiqua', serif;
-    font-size: 120%;
-}
-.logo-text {
-    font-family: 'Megrim', cursive;
-    font-size: 150%;
-    font-weight: bold;
-    
-}
-
-.focus-in-contract {
-	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.section {
-        padding: 50px 0;
-      }
-      
-      .flex-row-stretch {
-          display: flex;
-          align-items: stretch;
-          flex-wrap: wrap;
-      }
-      
-      .flex-col {
-          margin-bottom: 30px;
-      }
-      
-      @media (max-width: 768px) {
-      .flex-col {
-          width: 100%;
-          margin-bottom: 15px;
-      }
-      }
-      
-      
-      /* ======Cards======= */
-      
-      .card {
-          position: relative;
-          height: 100%;
-          margin: 0 auto;
-          overflow: hidden;
-          text-align: left;
-          border-radius: 6px;
-          box-shadow: 0 4px 15px -2px rgba(0, 0, 0, .2);
-          -webkit-box-shadow: 0 4px 15px -2px rgba(0, 0, 0, .2);
-          background-color: #fff;
-          display: flex;
-          flex-direction: column;
-          flex-grow: 1;
-      }
-      
-      .card-body {
-          padding: 15px;
-          display: flex;
-          flex-direction: column;
-          flex: 1 1 auto;
-      }
-      
-      .card-label {
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          font-weight: 600;
-          font-size: 13px;
-          color: #fff;
-          background-color: #231f20;
-          padding: 7px 15px;
-      }
-      
-      .card-photo {
-        background-position: 50% 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100px;
-      }
-      
-      .card p {
-          font-size: 15px;
-          margin-bottom: 20px;
-      }
-      
-      .card h4 {
-          text-align: left !important;
-          margin: 0 0 13px;
-      }
-      
-      .card a {
-          align-self: end;
-          margin-top: auto;
-      }
-
-      
- @-webkit-keyframes focus-in-contract {
-    0% {
-      letter-spacing: 1em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  @keyframes focus-in-contract {
-    0% {
-      letter-spacing: 1em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  
-  .kenburns-top {
-    -webkit-animation: kenburns-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
-            animation: kenburns-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
-  }
-
-@-webkit-keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
-}
-@keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
+.btn-default{
+	font-family: 'Space Mono', monospace;
 }
