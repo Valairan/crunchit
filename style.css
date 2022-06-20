@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+body::before{
+    display:block;
+    content: '' ;
+    height: 60px;
+}
+
+.titlu-text1 {
+    font-family: 'Comfortaa', bold;
+}
+.titlu-text2 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+.titlu-text3 {
+    font-family: 'Vast Shadow', cursive;
+}
+.titlu-text4 {
+    font-family: 'Emilys Candy', cursive;
+}
+.scris-text1 {
+    font-family: 'Inknut Antiqua', serif;
+}
+.scris-text2 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 120%;
+}
+.logo-text {
+    font-family: 'Megrim', cursive;
+    font-size: 150%;
+    font-weight: bold;
+    
+}
+
+.focus-in-contract {
+	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.section {
+        padding: 50px 0;
+      }
+      
+      .flex-row-stretch {
+          display: flex;
+          align-items: stretch;
+          flex-wrap: wrap;
+      }
+      
+      .flex-col {
+          margin-bottom: 30px;
+      }
+      
+      @media (max-width: 768px) {
+      .flex-col {
+          width: 100%;
+          margin-bottom: 15px;
+      }
+      }
+      
+      
+      /* ======Cards======= */
+      
+      .card {
+          position: relative;
+          height: 100%;
+          margin: 0 auto;
+          overflow: hidden;
+          text-align: left;
+          border-radius: 6px;
+          box-shadow: 0 4px 15px -2px rgba(0, 0, 0, .2);
+          -webkit-box-shadow: 0 4px 15px -2px rgba(0, 0, 0, .2);
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+      }
+      
+      .card-body {
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          flex: 1 1 auto;
+      }
+      
+      .card-label {
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 600;
+          font-size: 13px;
+          color: #fff;
+          background-color: #231f20;
+          padding: 7px 15px;
+      }
+      
+      .card-photo {
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100px;
+      }
+      
+      .card p {
+          font-size: 15px;
+          margin-bottom: 20px;
+      }
+      
+      .card h4 {
+          text-align: left !important;
+          margin: 0 0 13px;
+      }
+      
+      .card a {
+          align-self: end;
+          margin-top: auto;
+      }
+
+      
+ @-webkit-keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  .kenburns-top {
+    -webkit-animation: kenburns-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+            animation: kenburns-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+  }
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
