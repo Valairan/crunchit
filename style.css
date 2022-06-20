@@ -5,6 +5,7 @@ body{
 	background-image: url(./img/shutterstock_1435374326.jpg);
 	background-size:cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	color:white;
 }
 h1{
@@ -39,13 +40,18 @@ hr{
 	font-family: 'Space Mono', monospace;
 }
 .cirlediv {
-	margin: auto;
 	max-width: 700px;
-	width: 50%;
+	width: 100%;
   }
-  
+  .center {
+	margin: auto;
+	width: 75%;
+
+  }
   .circular {
-	/* display items as block elements, inline positioning */
+
+	margin-right: auto;
+	margin-left: auto;	/* display items as block elements, inline positioning */
 	display: inline-block;
 	/* set the height of the image */
 	height: 200px;
@@ -65,30 +71,32 @@ hr{
 	  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   }
   
-  /* simple hover effect */
-  a.circular { 
-	opacity: 1; 
-	/* add fade transition effect to opacity change */
-	transition: opacity 0.3s ease-in-out;
-	-webkit-transition: opacity 0.3s ease-in-out; /* Safari */
-  }
+
   
 
   
   .btn-ds {
-	background: url(./img/dsS.jpeg) no-repeat;
+	background: url(./img/dsSS.jpeg) no-repeat;
+	background-position: center;
   }
   
   .btn-jm {
-	background: url(./img/jmS.jpeg) no-repeat;
+		background: url(./img/jmSS.jpeg) no-repeat;
+		background-position: center;
+
   }  
   .btn-dv {
-	background: url(./img/dvS.jpeg) no-repeat;
+	background: url(./img/dvSS.jpeg) no-repeat;
+	background-position: center;
+
   }
   .btn-ktt {
-	background: url(./img/kttS.jpeg) no-repeat;
+	background: url(./img/kttSS.jpeg) no-repeat;
+	background-position: center;
+
   }
   .btn-kv {
-	background: url(./img/kvs.jpeg) no-repeat;
-	background-position: calc();
+	background: url(./img/kvSS.jpeg) no-repeat;
+	background-position: center;
+
 }
